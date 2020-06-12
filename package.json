@@ -1,0 +1,36 @@
+{
+  "name": "dynamic-resources",
+  "version": "1.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && npm run serve",
+    "serve": "node dist/server.js",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "@snaxfoundation/snaxjs": "^20.0.1",
+    "bluebird": "^3.5.3",
+    "cron": "^1.7.0",
+    "dotenv": "^6.2.0",
+    "invariant": "^2.2.4",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "node-fetch": "^2.3.0",
+    "pino": "^5.12.0"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.26",
+    "@types/cron": "^1.7.0",
+    "@types/invariant": "^2.2.29",
+    "@types/lodash": "^4.14.121",
+    "@types/moment": "^2.13.0",
+    "@types/pino": "^5.8.6",
+    "nodemon": "^1.18.10",
+    "prettier": "^1.16.4",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.13.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.3333"
+  }
+}
