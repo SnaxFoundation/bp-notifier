@@ -1,6 +1,4 @@
-# Discord notifications
-
-## Getting started
+# Snax BP notifier
 
 ### Installation
 
